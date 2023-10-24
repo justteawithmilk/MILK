@@ -1,7 +1,5 @@
 @import
 url('https://fonts.google.com/specimen/Rubik+Mono+One?subset=cyrillic&noto.script=Cyrl');
-
-
  /*фон и оформление текста*/
  body {
     background-color: 435334; /*фон*/
@@ -11,7 +9,6 @@ url('https://fonts.google.com/specimen/Rubik+Mono+One?subset=cyrillic&noto.scrip
     height: 100vh; /*точная высота которая не зависит от формата дисплея*/
     margin:0;/*поля*/
 }
-
 p {
    font-family: 'Rubik Mono One&#39', sans-serif; /*гарнитура*/
    font-size: 60px; /*кегль*/
