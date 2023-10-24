@@ -1,1 +1,25 @@
+@import
+url('https://fonts.google.com/specimen/Rubik+Mono+One?subset=cyrillic&noto.script=Cyrl');
+
+
+ /*фон и оформление текста*/
+ body {
+    background-color: 435334; /*фон*/
+    display: flex; /*равномерное расположение на дисплее*/
+    align-items: center; /*выключка по вертикали*/
+    justify-content: center;/*выключка по горизонтали*/
+    height: 100vh; /*точная высота которая не зависит от формата дисплея*/
+    margin:0;/*поля*/
+}
+
+p {
+   font-family: 'Rubik Mono One&#39', sans-serif; /*гарнитура*/
+   font-size: 60px; /*кегль*/
+   text-align:center; /*выключка*/
+   color: FAF1E4; /*цветные тени*/
+   text-shadow: 10px 10px 10px #3A8891, -10px -10px 10px #243A73; /*цвет и расположение теней*/
+   -webkit-text-stroke: 2px #FFF5E4;8 /*обводка текста*/
+   -webkit-text-fill-color: transparent; /*заливка текста*/
+   letter-spacing: 50px; /*межбуквенное расстояние*/
+}
 
